@@ -5,6 +5,8 @@ on:
     branches: [x64]
   pull_request:
     branches: [x64]
+  workflow_dispatch:
+    branches: [x64]
 
 jobs:
   build-linux:
